@@ -1,7 +1,7 @@
 var injectData = function(topic) {
     $.get("data.json", function(resp) {
         var r = resp[topic];
-        $(".title").html(r.title);
+        $(".title").html('<a href="' + r.url + '">' + r.title + '</a>');
         $(".author").html("by " + r.author);
         $(".rating").html( Array(r.rating + 1).join('<i class="fa fa-star" aria-hidden="true"></i>') );
         $(".desc").html(r.desc);
