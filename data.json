@@ -1,1 +1,9 @@
-{"title": "Parallel and Concurrrent Programming in Haskel", "author": "Simon Marlow", "rating": 5, "desc": "Learn how parallelism exploits multicore processors to speed up computation-heavy programs, and how concurrency enables you to write programs with threads for multiple interactions. Author Simon Marlow walks you through the process with lots of code examples that you can run, experiment with, and extend. Divided into separate sections on Parallel and Concurrent Haskell, this book also includes exercises to help you become familiar with the concepts presented: Express parallelism in Haskell with the Eval."}
+{ "haskell":
+  { "title": "Parallel and Concurrrent Programming in Haskell"
+  , "author": "Simon Marlow"
+  , "rating": 5
+  , "pages": 319
+  , "url": "https://www.amazon.de/Parallel-Concurrent-Programming-Haskell-Multithreaded/dp/1449335942/ref=sr_1_1?ie=UTF8&qid=1495694530&sr=8-1&keywords=parallel+programming+haskell"
+  , "desc": "Learn how parallelism exploits multicore processors to speed up computation-heavy programs, and how concurrency enables you to write programs with threads for multiple interactions. Author Simon Marlow walks you through the process with lots of code examples that you can run, experiment with, and extend. Divided into separate sections on Parallel and Concurrent Haskell, this book also includes exercises to help you become familiar with the concepts presented: Express parallelism in Haskell with the Eval."
+  }
+}

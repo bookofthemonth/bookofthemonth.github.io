@@ -22,12 +22,17 @@ body {
 }
 
 
-.info {
+.bookInfo {
   float: right;
   color: hsl(0, 0%, 100%);
   text-shadow: 0px 0px 6px black;
   width: 500px;
   text-align: center;
+  display: none; /* overridden by js */
+}
+
+.orgInfo {
+    display: none; /* overridden by js */
 }
 
 .rating {
